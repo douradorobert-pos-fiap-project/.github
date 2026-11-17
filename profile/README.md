@@ -37,7 +37,7 @@ Principais objetivos:
 - Resiliência e consistência de transações distribuídas.
 - Pipelines independentes de CI/CD.
 
-**Status:** Planejamento.
+**Status:** Os serviços foram implantados e um pagamento de teste ponta a ponta foi validado no sandbox em 17/11/2026. A documentação da entrega está em preparação; seguem pendentes a proteção de `main`, a evidência do New Relic, o vídeo e o PDF final.
 
 ## Repositórios
 
@@ -55,6 +55,16 @@ Principais objetivos:
 A documentação arquitetural está centralizada no repositório:
 
 [architecture-docs](https://github.com/douradorobert-pos-fiap-project/architecture-docs)
+
+### Microsserviços da Fase 4
+
+| Repositório | Responsabilidade |
+|---|---|
+| [os-service](https://github.com/douradorobert-pos-fiap-project/os-service) | Ordens de serviço e orquestração da Saga |
+| [billing-service](https://github.com/douradorobert-pos-fiap-project/billing-service) | Catálogo, orçamentos, pagamentos e webhook Mercado Pago |
+| [execution-service](https://github.com/douradorobert-pos-fiap-project/execution-service) | Diagnóstico, fila de execução e reparo |
+
+Consulte o [estado atual e evidências da Fase 4](https://github.com/douradorobert-pos-fiap-project/architecture-docs/blob/main/fase-4/current-status.md), a [arquitetura](https://github.com/douradorobert-pos-fiap-project/architecture-docs/blob/main/fase-4/architecture.md) e a [matriz de requisitos](https://github.com/douradorobert-pos-fiap-project/architecture-docs/blob/main/fase-4/requirements-traceability.md).
 
 Nele estão registrados os diagramas, as integrações, as decisões arquiteturais e as referências das entregas.
 
