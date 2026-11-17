@@ -37,7 +37,7 @@ Principais objetivos:
 - Resiliência e consistência de transações distribuídas.
 - Pipelines independentes de CI/CD.
 
-**Status:** Os serviços foram implantados e um pagamento de teste ponta a ponta foi validado no sandbox em 17/11/2026. A documentação da entrega está em preparação; seguem pendentes a proteção de `main`, a evidência do New Relic, o vídeo e o PDF final.
+**Status:** Os serviços foram implantados e um pagamento de teste ponta a ponta foi validado no sandbox em 17/11/2026. As regras de proteção de `main` são geridas pela organização. A documentação da entrega está em preparação; seguem pendentes a evidência do New Relic, o vídeo e o PDF final.
 
 ## Repositórios
 
